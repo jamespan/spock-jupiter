@@ -1,17 +1,15 @@
 package spock
 
-import org.junit.jupiter.api.parallel.Execution
-import org.junit.jupiter.api.parallel.ExecutionMode
-import spock.lang.Specification
+import spock.lang.Spec
+import spock.lang.Unroll
 
-class TryoutSpec extends Specification {
+class TryoutSpec extends Spec {
     def 'demo spec'() {
         expect:
         true
     }
 
-
-    @Execution(ExecutionMode.CONCURRENT)
+    @Unroll("#a + 1 == #b")
     def 'parameterized spec'() {
         expect:
         println "$a, $b"

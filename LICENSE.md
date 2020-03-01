@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2018 Sander Smeman
+Copyright (c) 2018 Pan Jiabang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
